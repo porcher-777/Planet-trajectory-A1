@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/projetCIR1_groupe2.dir/main.c.o CMakeFiles/projetCIR1_groupe2.dir/init.c.o CMakeFiles/projetCIR1_groupe2.dir/methode.c.o CMakeFiles/projetCIR1_groupe2.dir/opeVect.c.o CMakeFiles/projetCIR1_groupe2.dir/dessin_SDL.c.o -o projetCIR1_groupe2  -lSDL2 -lm 

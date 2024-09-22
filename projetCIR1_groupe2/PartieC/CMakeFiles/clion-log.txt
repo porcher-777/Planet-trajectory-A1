@@ -1,0 +1,4 @@
+C:\WINDOWS\system32\wsl.exe --distribution Debian --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Jeann/Documents/projetCIR1_groupe2/PartieC && /usr/bin/cmake -G 'CodeBlocks - Unix Makefiles' /mnt/c/Users/Jeann/Documents/projetCIR1_groupe2/PartieC"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/Jeann/Documents/projetCIR1_groupe2/PartieC

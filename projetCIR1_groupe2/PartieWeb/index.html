@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Simulateur Trajectoire de Planète
+        </title>
+        <meta http-equiv="content-type" content = "text/html" charset="utf-8"/>
+        <meta http-equiv="Content-Style-Type" conntent = "text/css"/>
+        <link href="project.css" rel="stylesheet" type ="text/css"/> 
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+        <script type = "text/javascript" src="project.js"></script>
+    </head>
+    <body onload="setup();">
+        <div id="home">
+            <br/>
+            <h1>Planet trajectory simulator</h1>
+            <br/>
+            <p>
+            Le but premier du projet est de générer des trajectoires de planètes et de les afficher 
+            graphiquement à l’aide d’un site web en utilisant la bibliothèque Javascript "p5.js".
+            Ici, on tracera la trajectoire de Mercure, de Vénus, de la Terre et de Mars autour du soleil.
+            <pre>Mercure : orange       Vénus : Gris        la Terre : Bleu         Mars : Rouge        Halley : Violet</pre> 
+            Veuillez choisir la méthode choisie lors de l'exécution du C : 
+            </p>
+            <input type="radio" id="Euler" value="Euler" name="methode">
+            <label for="methode">Euler</label>
+            <input type="radio" id="EulerA" value="Euler Asymetrique" name="methode">
+            <label for="methode">Euler Asymétrique</label>
+            <input type="radio" id="RK2" value="RK2" name="methode">
+            <label for="methode">Runge Kutta 2</label>
+            <br/><br/>
+            <input class="button" type="file" accept=".json" onchange="read(this); ">
+            <br/><br/>
+            
+            <div id="conteneur"></div>
+        </div>
+    </body>
+</html>
